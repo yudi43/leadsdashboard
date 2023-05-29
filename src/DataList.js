@@ -60,7 +60,7 @@ const DataList = ({ data }) => {
   return (
     <div>
       <h2 style={headingStyle}>
-        <span style={{ fontWeight: 'normal' }}>List of collected leads for AMC College</span>
+        <span style={{ fontWeight: 'normal' , fontStyle: 'italic'}}>List of leads generated for AMC College of Engineering</span>
         <span style={{ fontWeight: 'normal', fontSize: '18px' }}>
           Total entries: <strong style={{ fontWeight: 'bold', fontSize: '20px' }}>{totalCount}</strong>
         </span>
